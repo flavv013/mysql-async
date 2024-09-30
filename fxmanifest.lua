@@ -4,11 +4,11 @@ game 'common'
 name 'mysql-async'
 description 'MySQL Middleware for lua.'
 author 'Joel Wurtz & Matthias Mandelartz'
-version '3.3.2'
+version '3.3.1'
 url 'https://github.com/brouznouf/fivem-mysql-async'
 
 server_script 'mysql-async.js'
-client_script 'mysql-async-client.lua'
+client_script 'mysql-async-client.js'
 
 files {
   'ui/index.html',
