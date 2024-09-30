@@ -56,11 +56,6 @@
             </m-data-table>
           </div>
         </m-tab-item>
-        <m-tab-item label="Server Status" icon="settings_applications">
-          <div class="p-2" style="height: 480px;">
-            <m-server-status resource="mysql-async" />
-          </div>
-        </m-tab-item>
       </m-tabs>
       <div class="h-8 bg-black w-full rounded-b-md" />
     </div>
@@ -72,7 +67,6 @@ import MAppBar from '../vendor/ghmattimysql/packages/ghmattimysql-ui/src/compone
 import MChart from '../vendor/ghmattimysql/packages/ghmattimysql-ui/src/components/MChart.vue';
 import MDataTable from '../vendor/ghmattimysql/packages/ghmattimysql-ui/src/components/MDataTable.vue';
 import MIcon from '../vendor/ghmattimysql/packages/ghmattimysql-ui/src/components/MIcon.vue';
-import MServerStatus from '../vendor/ghmattimysql/packages/ghmattimysql-ui/src/components/MServerStatus.vue';
 import MTabs from '../vendor/ghmattimysql/packages/ghmattimysql-ui/src/components/MTabs.vue';
 import MTabItem from '../vendor/ghmattimysql/packages/ghmattimysql-ui/src/components/MTabItem.vue';
 
@@ -82,7 +76,6 @@ export default {
     MChart,
     MDataTable,
     MIcon,
-    MServerStatus,
     MTabs,
     MTabItem,
   },
